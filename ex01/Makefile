@@ -5,12 +5,12 @@
 #                                                     +:+ +:+         +:+      #
 #    By: mel-bouh <mel-bouh@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2024/12/15 05:37:45 by mel-bouh          #+#    #+#              #
-#    Updated: 2025/03/04 19:13:25 by mel-bouh         ###   ########.fr        #
+#    Created: 2025/03/03 19:42:36 by mel-bouh          #+#    #+#              #
+#    Updated: 2025/03/04 19:17:41 by mel-bouh         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-FLAGS = -Wall -Wextra -Werror #-std=c++98
+FLAGS = -Wall -Wextra -Werror -std=c++98
 SRC = main.cpp Fixed.cpp
 OBJ = $(SRC:.cpp=.o)
 HEADER = Fixed.hpp
